@@ -1,0 +1,3 @@
+rootProject.name='multistateview'
+include ':app'
+include ':multistate_view_lib'

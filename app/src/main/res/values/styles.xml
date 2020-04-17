@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MultiStateStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="msv_loadingView">@layout/layout_state_loading</item>
+        <item name="msv_emptyView">@layout/layout_state_empty</item>
+        <item name="msv_errorView">@layout/layout_state_error</item>
+        <item name="msv_viewState">loading</item>
+    </style>
+
+</resources>
