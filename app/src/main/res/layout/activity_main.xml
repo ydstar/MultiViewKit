@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.multistate.view.MultiStateView
-        android:id="@+id/multiStateView"
-        style="@style/MultiStateStyle"
+    <com.multiview.kit.MultiViewKit
+        android:id="@+id/multiViewKit"
         android:layout_width="match_parent"
+        android:background="#eeeeee"
         android:layout_height="match_parent">
 
         <ListView
@@ -17,6 +17,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:listitem="@android:layout/simple_list_item_1" />
-    </com.multistate.view.MultiStateView>
+    </com.multiview.kit.MultiViewKit>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

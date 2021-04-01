@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:id="@+id/ll_error"
     android:orientation="vertical">
 
     <ImageView
@@ -12,16 +13,17 @@
         android:src="@mipmap/icon_state_error" />
 
     <TextView
+        android:id="@+id/tv_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="加载错误"
+        android:text="加载错误,点击屏幕重新加载"
         android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/retry"
-        style="?android:borderlessButtonStyle"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="重试" />
+        android:gravity="center"
+        android:text="点击屏幕重新加载"
+        android:textSize="18sp" />
 </LinearLayout>

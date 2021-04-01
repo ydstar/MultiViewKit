@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tv_loading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
-        android:text="正在加载"
-        android:textColor="#666666"
-        android:textSize="12sp" />
 
-    <View
-        android:id="@+id/loading_anim_view"
-        android:layout_width="60.0dip"
-        android:layout_height="12.0dip"
-        android:layout_below="@id/tv_loading"
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/state_loading" />
+        android:indeterminateTint="@color/colorAccent"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
 </RelativeLayout>
