@@ -147,7 +147,7 @@ multiViewKit.setViewForState(emptyView, MultiViewKit.VIEW_STATE_EMPTY);
 mErrorView = new ErrorView(context);
 multiViewKit.setViewForState(mErrorView, VIEW_STATE_ERROR);
 
-//展示加载页
+//默认开始展示加载页
 multiViewKit.setViewState(VIEW_STATE_LOADING);
 ```
 
